@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    background-color: grey;
+}
+
+
+
+.heading-container{
+    /* border:solid black 2px; */
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.heading-container h1{
+    font-size: 3.5rem;
+}
+
+#restart-button{
+    height: 50px;
+    width:120px;
+    font-size: 2rem;
+    background-color: #b83b5e;
+    margin: 1.5rem;
+    border-radius: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#restart-button:hover{
+    color:#28abb9;
+    background-color: #790c5a;
+}
+
+.gameboard-container{
+    /* border:solid green 2px; */
+    display: flex;
+    flex-flow: row wrap;
+    height:400px;
+    width: 450px;
+    justify-content: center;
+    margin: 0% auto;
+}
+
+.box {
+
+    height: 130px;
+    width: 130px;
+    border: solid purple 4px;
+}
+
+
+/* stylings for individual boxes */
+.first-box{
+    border-top: solid grey 4px;
+    border-left: solid grey 4px;
+}
+
+.second-box{
+    border-top: solid grey 4px;
+}
+
+.third-box{
+       border-top: solid grey 4px;
+       border-right: solid grey 4px;
+}
+
+.fourth-box{
+    border-left: solid grey 4px;
+}
+/* 
+.fifth-box{
+    
+} */
+
+.sixth-box{
+    /* border-top: solid grey 4px; */
+    border-right: solid grey 4px;
+}
+.seventh-box{
+    border-left: solid grey 4px;
+    border-bottom:solid grey 4px;
+}
+
+.eighth-box{
+    border-bottom:solid grey 4px;
+    
+}
+
+
+.ninth-box{
+    border-bottom:solid grey 4px;
+    border-right: solid grey 4px;
+
+}
+
+.footer {
+    /* background-color: darkgray; */
+
+    background: #746d6d;
+  
+
+    margin: 0 auto;
+    text-align: center;
+
+    padding: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1rem;
+  font-family: "Ubuntu",
+  sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   
+}
