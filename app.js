@@ -34,7 +34,7 @@ heading.innerText="Player X won the game!"
 element.textContent="";
 heading.innerText="Let's play!"
 }) 
-}, 1000);
+}, 1300);
 }
 
 
@@ -46,7 +46,7 @@ else if(checkWinner()===O_player){
             element.textContent="";
             heading.innerText="Let's play!"
     }) 
- }, 1000);
+ }, 1300);
 }
 
 if(currentPlayer==O_player){
