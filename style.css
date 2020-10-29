@@ -118,6 +118,7 @@ body{
     height: 86px;
     width: 98px;
     border: solid purple 4px;
+    padding-bottom: 1.5rem;
 }
 
 .first-box {
