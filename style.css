@@ -41,17 +41,21 @@ body{
     /* border:solid green 2px; */
     display: flex;
     flex-flow: row wrap;
-    height:400px;
-    width: 450px;
+    height:300px;
+    width: 300px;
     justify-content: center;
     margin: 0% auto;
+  
+    
 }
 
 .box {
 
-    height: 130px;
-    width: 130px;
-    border: solid purple 4px;
+    height: 90px;
+    width: 90px;
+    border: solid purple 5.5px;
+   /* outline-style:solid;
+   outline-color: purple; */
 }
 
 
@@ -61,6 +65,7 @@ body{
 .first-box{
     border-top: solid grey 4px;
     border-left: solid grey 4px;
+   
 }
 
 .second-box{
@@ -118,7 +123,7 @@ body{
     height: 86px;
     width: 98px;
     border: solid purple 4px;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 .first-box {

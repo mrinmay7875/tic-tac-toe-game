@@ -24,7 +24,7 @@ const restartButton=document.querySelector("#restart-button")
 allBoxes.forEach((element)=>{
     element.addEventListener("click",()=>{
 element.textContent=currentPlayer;
-element.style.fontSize="100px";
+element.style.fontSize="80px";
 element.style.textAlign="center"
 
 if(checkWinner()===X_player){
