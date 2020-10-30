@@ -45,6 +45,7 @@ body{
     width: 300px;
     justify-content: center;
     margin: 0% auto;
+    cursor: pointer;
   
     
 }
@@ -54,8 +55,7 @@ body{
     height: 90px;
     width: 90px;
     border: solid purple 5.5px;
-   /* outline-style:solid;
-   outline-color: purple; */
+ 
 }
 
 
@@ -174,3 +174,26 @@ body{
 
     
 }
+
+.footer {
+    margin: 0 auto;
+    text-align: center;
+
+    padding: 10px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.4rem;
+font-weight: bold;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.15s ease-in;
+}
+
+footer:hover{
+opacity: 1;
+}
+
+
+
