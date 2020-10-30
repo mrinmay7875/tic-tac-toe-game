@@ -30,6 +30,7 @@ body{
     border-radius: 10px;
     color: whitesmoke;
     cursor: pointer;
+     margin-left: 2.5rem;
 }
 
 #restart-button:hover{
